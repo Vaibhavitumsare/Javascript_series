@@ -21,3 +21,36 @@ console.log(boolean)
 let string=String(IsLoggedIn)
 console.log(string)
 
+
+// Operations
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2**2)
+// console.log(2/2)
+// console.log(2%2)
+
+let str1="hello"
+let str2=" vaibhavi"
+let str3=str1+str2
+console.log(str3)
+
+console.log("1"+2); //12
+console.log(1+"2"); //12
+console.log("1"+2+2) //122
+console.log(1+2+"2") //32
+
+console.log(true) //true
+console.log(+true) //1
+console.log(+""); //0
+
+// == and (< or >) works little diffrent to each  other
+console.log(null>0)//false
+console.log(null==0)//false
+console.log(null>=0)//true
+
+console.log(undefined>0)//false
+console.log(undefined==0)//false
+console.log(undefined>=0)//false
+
+//===  ->strict check (check value as well as data type for comparison) 
